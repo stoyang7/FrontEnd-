@@ -1,0 +1,36 @@
+body{
+    margin: 40px;
+}
+
+.buttBounceRight{
+    background-color: gray;
+    position: relative;
+    display: inline-block;
+
+    color: white;
+    padding: 25px;
+}
+
+.innerSpace{
+    position: absolute;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+}
+
+.buttText{
+    position: relative;
+}
+
+.innerSpace:hover{
+    animation: expand 3s 300ms infinite; 
+}
+
+@keyframes expand{
+    0%{background-color: blue; width: 0%;color: white}
+    50%{color: black}
+    100%{background-color: blue; width: 100%;color: white}
+}
