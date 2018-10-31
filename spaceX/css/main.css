@@ -1,0 +1,116 @@
+article{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 18%;
+    padding-right: 18%;
+    color: #ffffff;
+    margin-bottom: 20%;
+}
+
+h1{
+    position: relative;
+    display: block;
+    font-weight: 200;
+    font-size: 60px;
+}
+
+.pricing1 > :link{
+    position: absolute;
+    display: inline-block;
+    background-color: #21272b;
+    padding-top: 16px; 
+    
+    color: #2980b9;
+    width: 21.5%;
+    height: 4%;
+
+    top: 86%;
+    left: 61%;
+
+    font-size: 11px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+.pricing1 > :visited{
+    text-decoration: none;
+    color: #2980b9;
+}
+
+.pricing2{
+    color: #ccc;
+}
+
+.pricing3:hover{
+    border-bottom: 2.5px solid #2980b9;
+    transition: border 130ms ease 100ms;
+}
+
+.spacexLaunch :link{
+    position: absolute;
+    display: inline-block;
+    background-color: #21272b;
+    padding-top: 16px; 
+    text-decoration: none;
+
+    color: #2980b9;
+    width: 21.5%;
+    height: 4%;
+
+    top: 92.5%;
+    left: 61%;
+
+    font-size: 11px;
+    text-align: center;
+    
+}
+
+.spacexLaunch :visited{
+    text-decoration: none;
+    color: #2980b9;
+}
+
+.spacexLaunch2{
+    position: absolute;
+    left: 95px;
+}
+.spacexLaunch2:hover{
+    border-bottom: 2.5px solid #2980b9;
+    transition: border 130ms ease 100ms;
+}
+
+.articleText1{
+    position: relative;
+    border-top: 1px dashed #808080;
+    padding-top: 10px;
+
+    top: 70%;
+    width: 64%;
+}
+
+.articleLText{
+    position: relative;
+    display: inline-block;
+    width: 45%;
+
+    color: #ccc;
+    font-size: 13.5px;
+    letter-spacing: 0.5px;
+}
+
+.articleRText{
+    position: relative;
+    display: inline-block;
+    left: 8%;
+    width: 45%;
+
+    color: #ccc;
+    font-size: 13.5px;
+    letter-spacing: 0.5px;  
+}
+
+.miniRocket{
+    position: absolute;
+
+    top: 83%;
+    left: 62%;
+}

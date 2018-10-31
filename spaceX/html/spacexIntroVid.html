@@ -1,0 +1,43 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+        <style>
+    #modalWindow{
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.7);
+        z-index: 9999;
+        opacity: 0;
+        transition: opacity 400ms linear;
+        pointer-events: none;
+    }
+
+    #modalWindow:target{
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    #modalWindow > div{
+        width: 400px;
+        height: 240px;
+        position: relative;
+        margin: 10% auto;
+        padding: 20px 20px 13px 20px;
+        
+    }
+        </style>
+</head>
+   <body>
+    <a href="#modalWindow">ssd</a>
+
+    <div id="modalWindow">
+        <div>
+            <a href="#close">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
