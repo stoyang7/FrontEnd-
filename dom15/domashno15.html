@@ -1,0 +1,55 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="calcWrapper">
+        <div>
+            <div class="calcButton" onclick="addNumber(1)">1</div>
+            <div class="calcButton" onclick="addNumber(2)" >2</div>
+            <div class="calcButton" onclick="addNumber(3)">3</div>
+            <div class="calcButton" onclick="addNumber(4)">4</div>
+            <div class="calcButton" onclick="addNumber(5)">5</div>
+            <div class="calcButton" onclick="addNumber(6)">6</div>
+            <div class="calcButton" onclick="addNumber(7)">7</div>
+            <div class="calcButton" onclick="addNumber(8)">8</div>
+            <div class="calcButton" onclick="addNumber(9)">9</div>
+            <div class="calcButton calcButtonZero" onclick="addNumber('0')">0</div>
+        </div>
+        <div class="calcSignWrapper">
+            <div class="calcButton" onclick="addSign()">+</div>
+            <div class="calcButton" onclick="calculate()">=</div>
+        </div>
+    </div>
+
+    <script>
+    
+        var firstNumber = 0,
+            secondNumber = 0,
+            currentNumber = 1;
+            // zashto tuk e 1 a po dolu e 2 ?
+
+        function addNumber(number){
+            if(currentNumber === 1){
+                firstNumber += number; // zashto parametara na funkciqta e slojen v uslovieto? 
+                document.title = firstNumber;
+            }else{
+                secondNumber += number; // zashto kato e + ne raboti a kato e += raboti? 
+                document.title = secondNumber;
+            }
+
+        function addSign(){ 
+            // zashto tuk e 2? 
+            currentNumber = 2;
+        }
+
+        function calculate(){
+            document.title = firstNumber + secondNumber;
+        }
+
+        }
+    </script>
+</body>
+</html>
